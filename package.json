@@ -1,0 +1,74 @@
+{
+  "name": "ai-story-generator",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "@runware/sdk-js": "^1.1.42",
+    "@supabase/supabase-js": "^2.54.0",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "ajv": "^8.17.1",
+    "autoprefixer": "^10.4.0",
+    "bcryptjs": "^3.0.2",
+    "bull": "^4.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "ffmpeg-static": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.263.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-refresh": "^0.17.0",
+    "react-scripts": "5.0.1",
+    "redis": "^4.6.0",
+
+    "tailwindcss": "^3.3.0",
+    "typescript": "^4.9.5",
+    "uuid": "^11.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "dev": "nodemon server.js",
+    "vercel-build": "CI=false npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": "warn",
+      "@typescript-eslint/no-unused-vars": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/jest": "^29.5.0"
+  }
+}
